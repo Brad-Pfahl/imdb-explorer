@@ -1,0 +1,21 @@
+[project]
+title = "Top IMDb Movie Explorer"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/imdblogo.jpg"
+favicon = "🎥"
+primaryColor = "#FFD700"
+background = "#1c1c1c"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
